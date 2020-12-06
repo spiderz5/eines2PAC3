@@ -1,0 +1,25 @@
+.destacat {
+  @apply absolute top-0 right-0 m-2.5 pt-1.5 pr-2.5 pb-1.5 pl-2.5 text-xs font-bold text-white text-center;
+}
+
+.form {
+  &-group {
+    @apply w-full px-1 mb-4;
+  }
+
+  &-row {
+    @apply flex flex-wrap -mr-1 -ml-1;
+  }
+
+  &-control {
+    @apply block w-full text-base font-normal leading-normal text-gray-700 bg-white rounded px-4 py-2 border focus:text-gray-700 focus:bg-white focus:border-red-400 focus:outline-none focus:shadow-2xl;
+  }
+
+  &-label {
+    @apply inline-block mb-2;
+  }
+}
+
+.button {
+  @apply text-white bg-bankrobber border-red-700 inline-block px-3.5 py-1.5  font-normal text-center align-middle select-none  leading-normal rounded hover:bg-red-700;
+}
